@@ -7,22 +7,22 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <h4>Name</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <h4>Department</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <h4>Difficulty</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <h4>Priority</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <h4>Task assign</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <h4>Status</h4>
                             </div>
                         </div>
@@ -39,22 +39,22 @@
                         @foreach ($tasks as $task)
                         <div class="row">
 
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <p>{{ $task->Name }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <p>{{ $task->Department }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <p>{{ $task->Difficulty }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <p>{{ $task->Priority }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <p>{{ $task->TaskAssign }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-sm-4">
                                 <p>{{ $task->Status }}</p>
                             </div>
                         </div>

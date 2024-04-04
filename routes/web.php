@@ -1,9 +1,8 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
 use App\Http\Controllers\UserManagementController;
-use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TaskManagementController;
 
 
@@ -33,8 +32,5 @@ Route::get('/taskManagement', [App\Http\Controllers\HomeController::class, 'task
 
 Route::get('/user_management', [UserManagementController::class, 'index'])->name('user_management.index');
 
-Route::get('/task-management', [TaskManagementController::class, 'index']);
 
-Route::get('/taskManagement', [TaskManagementController::class, 'index'])->name('taskManagement');
 
-Route::post('/tasks', [TaskController::class, 'store'])->name('tasks.store');

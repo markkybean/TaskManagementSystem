@@ -7,22 +7,22 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <h4>Name</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <h4>Department</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <h4>Roles</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <h4>Monitoring</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <h4>Log Records</h4>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <button type="button" class="btn btn-dark mb-3" data-bs-toggle="modal"
                                     data-bs-target="#exampleModal">+Add</button>
                             </div>
@@ -40,22 +40,22 @@
                         @foreach ($users as $user)
                         <div class="row">
 
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <p>{{ $user->name }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <p>{{ $user->department }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <p>{{ $user->roles }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <p>{{ $user->monitoring }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <p>{{ $user->logrecords }}</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
                                 <button class="btn btn-success m-2">update</button>
                             </div>
                         </div>
