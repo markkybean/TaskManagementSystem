@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 04, 2024 at 06:15 AM
+-- Generation Time: Apr 05, 2024 at 07:01 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -151,7 +151,10 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('biu3oP99yVB15gIOJVM9v2qCzqXkT6aSutZGiYYx', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiVXpGN0s2NFc1V0JGbW9XSmtvdmdWSUZpWGIzTktCZXN2TlZQOE56bCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9ob21lIjt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6Mjt9', 1712203941);
+('19si8yy98nQMNrpwZIRig7sy1dp5cF42si54aLo4', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiSTE1ZTBKWGQ3UDV2T0JReXNvYUVzWGQ2dVhEMGpYQ2JxTjFTaFdRayI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1712223897),
+('Bg7yOOkzQsRvdETR4pDElZKd2aNsfvp83PGZ6SUv', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiMHpja2ZXaElycUZ1RDJUb1poUlFPaDhNRkdyQkdrYUp5OEVuYTlxQSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9ob21lIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjQ6ImF1dGgiO2E6MTp7czoyMToicGFzc3dvcmRfY29uZmlybWVkX2F0IjtpOjE3MTIzMzY0MzY7fX0=', 1712336446),
+('biu3oP99yVB15gIOJVM9v2qCzqXkT6aSutZGiYYx', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiVXpGN0s2NFc1V0JGbW9XSmtvdmdWSUZpWGIzTktCZXN2TlZQOE56bCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9ob21lIjt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6Mjt9', 1712203941),
+('T1v40PFlbCwfq9zk9akXtZAOKnUUGGMSlVbz4Nk8', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiMmltTVFtWk92cHZKdG5VQ2lxdlpwTkdSdTNyeTNCYXZxakFFeHNoQSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC90YXNrTWFuYWdlbWVudCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czo0OiJhdXRoIjthOjE6e3M6MjE6InBhc3N3b3JkX2NvbmZpcm1lZF9hdCI7aToxNzEyMzM1NTU5O319', 1712336223);
 
 -- --------------------------------------------------------
 
@@ -161,8 +164,9 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 
 CREATE TABLE `taskmanagement` (
   `id` int(11) NOT NULL,
-  `Name` varchar(255) NOT NULL,
-  `Department` varchar(255) NOT NULL,
+  `user_management_id` int(11) DEFAULT NULL,
+  `Name` varchar(255) DEFAULT NULL,
+  `Department` varchar(255) DEFAULT NULL,
   `Difficulty` varchar(50) DEFAULT NULL,
   `Priority` varchar(50) DEFAULT NULL,
   `TaskAssign` varchar(255) DEFAULT NULL,
@@ -173,17 +177,17 @@ CREATE TABLE `taskmanagement` (
 -- Dumping data for table `taskmanagement`
 --
 
-INSERT INTO `taskmanagement` (`id`, `Name`, `Department`, `Difficulty`, `Priority`, `TaskAssign`, `Status`) VALUES
-(21, 'Mark Santos', 'Web Developer', 'Hard', 'High', 'TaskManagement', 'Done'),
-(22, 'John Doe', 'IT Department', 'Medium', 'Low', 'Database Management', 'Pending'),
-(23, 'Jane Smith', 'HR Department', 'Easy', 'Medium', 'Recruitment', 'InProgress'),
-(24, 'Alice Johnson', 'Finance Department', 'Medium', 'High', 'Financial Reporting', 'Done'),
-(25, 'Bob Williams', 'Marketing Department', 'Hard', 'Low', 'Marketing Campaign', 'Pending'),
-(26, 'Sarah Lee', 'Customer Service Department', 'Easy', 'High', 'Customer Support', 'InProgress'),
-(27, 'David Brown', 'Sales Department', 'Medium', 'Medium', 'Sales Calls', 'Pending'),
-(28, 'Emily Wilson', 'Operations Department', 'Hard', 'High', 'Inventory Management', 'Done'),
-(29, 'Michael Garcia', 'Product Development Department', 'Medium', 'Low', 'Product Development', 'InProgress'),
-(30, 'Jennifer Martinez', 'Quality Assurance Department', 'Easy', 'Medium', 'Quality Testing', 'InProgress');
+INSERT INTO `taskmanagement` (`id`, `user_management_id`, `Name`, `Department`, `Difficulty`, `Priority`, `TaskAssign`, `Status`) VALUES
+(1, 1, 'John Doe', 'IT Department', 'Developer', 'Pending', 'TaskManagement', 'InProgress'),
+(2, 2, 'Jane Smith', 'HR Department', 'Medium', 'Done', 'Database Management', 'InProgress'),
+(3, 3, 'Alice', 'Finance Department', 'Analyst', 'Pending', 'Financial Reporting', 'InProgress'),
+(4, 4, 'Bob', 'Marketing Department', 'Coordinator', 'Done', 'Marketing Campaign', 'InProgress'),
+(5, 5, 'Charlie', 'Sales Department', 'Sales Representative', 'Pending', 'Sales Calls', 'InProgress'),
+(6, 6, 'David', 'Human Resources Department', 'Recruiter', 'Done', 'Recruitment', 'InProgress'),
+(7, 7, 'Eva', 'Customer Service Department', 'Customer Support', 'Pending', 'Customer Support', 'InProgress'),
+(8, 8, 'Frank', 'IT Department', 'System Administrator', 'Done', 'Inventory Management', 'InProgress'),
+(9, 9, 'Grace', 'Operations Department', 'Operations Manager', 'Pending', 'Inventory Management', 'InProgress'),
+(10, 10, 'Henry', 'Legal Department', 'Legal Advisor', 'Done', 'Legal Advisory', 'InProgress');
 
 -- --------------------------------------------------------
 
@@ -301,7 +305,8 @@ ALTER TABLE `sessions`
 -- Indexes for table `taskmanagement`
 --
 ALTER TABLE `taskmanagement`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `user_management_id` (`user_management_id`);
 
 --
 -- Indexes for table `users`
@@ -342,7 +347,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `taskmanagement`
 --
 ALTER TABLE `taskmanagement`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `users`
@@ -355,6 +360,16 @@ ALTER TABLE `users`
 --
 ALTER TABLE `user_management`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `taskmanagement`
+--
+ALTER TABLE `taskmanagement`
+  ADD CONSTRAINT `taskmanagement_ibfk_1` FOREIGN KEY (`user_management_id`) REFERENCES `user_management` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
